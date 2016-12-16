@@ -1,7 +1,5 @@
 # SureSlider
-最近更新项目需求，要求封装一份类似于iPhone解锁效果切换状态的视图。所以简述下自定义控件的封装流程，本文章适用于代码封装度较低的朋友们，提供一些封装思路，希望抛砖引玉。大牛们可忽略。
-
-效果如图所示
+最近更新项目需求，要求封装一份类似于iPhone解锁效果切换状态的视图。所以简述下自定义控件的封装流程，本文章适用于代码封装度较低的朋友们，提供一些封装思路，希望抛砖引玉。大牛们可忽略。效果如图所示
 ![service_1.png](http://upload-images.jianshu.io/upload_images/1767950-b721ade616d0c60b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![service_2.png](http://upload-images.jianshu.io/upload_images/1767950-0418a1a8c055bfb1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
