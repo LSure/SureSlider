@@ -93,9 +93,13 @@ typedef NS_ENUM(NSInteger, SERVICE_STATE) {
 }
 ```
 这段代码中不常使用到的可能就是stretchableImageWithLeftCapWidth topCapHeight的这个方法。因为设计人员提供的素材为下图。
+
 ![bubble_pop@2x.png](http://upload-images.jianshu.io/upload_images/1767950-a96aeb42c115f926.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 而为了适配于各种屏幕需要进行拉伸操作，为防止图片拉伸变形可使用如上方法，分别拉取横向与纵向的一个像素对图片进行拉伸而不影响原显示效果。对于像素点选取尽量选择平滑的位置。进行拉伸后即可显示为如下效果而不失真。
+
 ![bubble.png](http://upload-images.jianshu.io/upload_images/1767950-e53d6c24e3a95e1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 显而易见，对于聊天界面的气泡效果就是通过该方法实现。
 
 最后，在ScrollView的代理方法中实现对应操作即可。因篇幅原因，这里只摘取具体代码。
@@ -131,7 +135,9 @@ typedef NS_ENUM(NSInteger, SERVICE_STATE) {
 ```
 补充一个视图显示效果
 这里需要实现类似于iPhone滑动解锁的效果，使用了FaceBook所提供的一个类，叫做Shimmer。很好的一个效果，推荐给大家，效果如图：
+
 ![4196_140818143415_1.gif](http://upload-images.jianshu.io/upload_images/1767950-bf61d8eec3d03482.gif?imageMogr2/auto-orient/strip)
+
 先写到这里，后续有补充会再添加。
 
 ######demo下载链接
